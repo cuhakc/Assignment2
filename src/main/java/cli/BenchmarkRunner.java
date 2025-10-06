@@ -33,7 +33,7 @@ public class BenchmarkRunner {
                 writer.write(String.format("%d,%.3f,%d,%d,%d\n",
                         n, timeMs, tracker.getComparisons(), tracker.getSwaps(), tracker.getArrayAccesses()));
 
-                System.out.printf("✅ Completed n=%d | Time: %.3f ms | %s%n",
+                System.out.printf("Completed n=%d | Time: %.3f ms | %s%n",
                         n, timeMs, tracker);
             }
 
